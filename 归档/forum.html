@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">济州岛</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">主页</a></li>
+          <li><a href="shopping.html">商场</a></li>
+          <li><a href="phone.html">韩国号码</a></li>
+
+          <li><a href="express.html">快递</a></li>
+          <li class="active"><a href="forum.html">论坛</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-9">
+        <h4><small>Forum</small></h4>
+        <hr>
+        <h2>论坛交流</h2>
+        <h5><span class="glyphicon glyphicon-time"></span>发布于2022/01/22</h5>
+
+        <p>本论坛将用于给在济州岛的中国人讨论一些平时生活中的问题.</p>
+        <br><br>
+
+        <h4><small>最近的评论</small></h4>
+        <hr>
+        <h2></h2>
+        <h5><span class="glyphicon glyphicon-time"></span>发布于2022/01/22.</h5>
+        <h5><span class="label label-success">发布</span></h5><br>
+        <p></p>
+        <hr>
+
+        <h4>评论:</h4>
+        <form role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">确认</button>
+        </form>
+        <br><br>
+
+        <p><span class="badge">2</span> 评论区:</p><br>
+
+        <div class="row">
+          <div class="col-sm-2 text-center">
+
+          </div>
+          <div class="col-sm-10">
+            <h4>示例1 <small>发布于2022/01/23</small></h4>
+            <p>在济州岛哪里可以找到苹果营业厅？</p>
+            <br>
+          </div>
+          <div class="col-sm-2 text-center">
+
+          </div>
+          <div class="col-sm-10">
+            <h4>示例2 <small>Sep 25, 2015, 8:25 PM</small></h4>
+            <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <br>
+            <p><span class="badge">1</span> 其他评论:</p><br>
+            <div class="row">
+
+              <div class="col-xs-10">
+                <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
+                <p>Me too! WOW!</p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid">
+    <p></p>
+  </footer>
+
+  </body>
+  </html>
